@@ -131,3 +131,126 @@ The algorithm explores every possible game state and chooses the move with the h
 ## License
 
 This project is open source and free to use for learning and educational purposes.
+
+
+task 2:
+# Rule-Based ChatBot
+
+A simple **Rule-Based ChatBot** developed in Python. The chatbot responds to predefined user inputs using conditional statements (`if-elif-else`). It is designed as a beginner-friendly project to demonstrate basic chatbot functionality without using Artificial Intelligence or Machine Learning.
+
+## Features
+
+- Greets the user.
+- Responds to common greetings.
+- Answers "How are you?" questions.
+- Introduces itself.
+- Provides information about programming courses.
+- Gives a brief introduction to Python.
+- Displays the current date.
+- Displays the current time.
+- Responds to thank-you messages.
+- Ends the conversation when the user types **bye**.
+
+## Requirements
+
+- Python 3.x
+
+No external libraries are required. The chatbot uses Python's built-in `datetime` module.
+
+## Project Structure
+
+```
+rule_based_chatbot.py
+README.md
+```
+
+## How to Run
+
+1. Download or clone the project.
+2. Open a terminal or command prompt.
+3. Navigate to the project folder.
+4. Run the program using:
+
+```bash
+python rule_based_chatbot.py
+```
+
+## Sample Conversation
+
+```
+ChatBot: Hello! I am your chatbot.
+Type 'bye' to exit.
+
+You: hello
+ChatBot: Hello! How can I help you?
+
+You: what is your name
+ChatBot: My name is RuleBot.
+
+You: tell me about python
+ChatBot: Python is an easy and powerful programming language.
+
+You: what is the time
+ChatBot: Current time is 14:35:20
+
+You: thank you
+ChatBot: You're welcome!
+
+You: bye
+ChatBot: GoodBye! Have a great day!
+```
+
+## Supported Commands
+
+The chatbot can respond to the following inputs:
+
+- `hello`
+- `hi`
+- `how are you`
+- `your name`
+- `course`
+- `python`
+- `time`
+- `date`
+- `thanks`
+- `thank you`
+- `bye`
+
+## How It Works
+
+The chatbot uses a series of `if-elif-else` conditions to compare user input with predefined keywords or phrases. Based on the matching condition, it prints an appropriate response.
+
+## Future Improvements
+
+- Add more conversation topics.
+- Support natural language processing (NLP).
+- Store chat history.
+- Create a graphical user interface (GUI) using Tkinter.
+- Add voice input and speech output.
+- Integrate AI APIs for smarter responses.
+
+## Technologies Used
+
+- Python 3
+- Built-in `datetime` module
+
+## Learning Objectives
+
+This project helps beginners understand:
+
+- Conditional statements (`if-elif-else`)
+- Loops (`while`)
+- User input handling
+- String operations
+- Date and time handling
+- Basic chatbot development
+
+## License
+
+This project is open source and intended for learning and educational purposes.
+
+
+
+task 3:
+
+
