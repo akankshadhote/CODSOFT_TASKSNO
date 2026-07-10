@@ -253,4 +253,114 @@ This project is open source and intended for learning and educational purposes.
 
 task 3:
 
+# Movie Recommendation System
+
+A simple **Movie Recommendation System** built using Python. The program recommends movies based on the user's favorite genre by selecting titles from a predefined dictionary of movie categories.
+
+## Features
+
+- Displays available movie categories.
+- Accepts user input for a preferred genre.
+- Recommends movies from the selected category.
+- Handles invalid category inputs gracefully.
+- Simple command-line interface.
+
+## Requirements
+
+- Python 3.x
+
+No external libraries are required.
+
+## Project Structure
+
+```
+movie_recommendation.py
+README.md
+```
+
+## How to Run
+
+1. Download or clone the project.
+2. Open a terminal or command prompt.
+3. Navigate to the project folder.
+4. Run the program using:
+
+```bash
+python movie_recommendation.py
+```
+
+## Available Categories
+
+The system currently supports the following movie genres:
+
+- Action
+- Comedy
+- Romance
+- Horror
+
+## Sample Output
+
+```
+=== Movie Recommendation System ===
+
+Available Categories:
+Action
+Comedy
+Romance
+Horror
+
+Enter your favourite category: action
+
+Recommended Movies:
+- KGF
+- Pushpa
+- RRR
+- War
+```
+
+### Invalid Input Example
+
+```
+Enter your favourite category: thriller
+
+Sorry! Category not found.
+```
+
+## How It Works
+
+- Movies are stored in a Python dictionary.
+- The user enters a movie category.
+- The program checks whether the category exists in the dictionary.
+- If found, it displays the list of recommended movies.
+- Otherwise, it shows an error message.
+
+## Technologies Used
+
+- Python 3
+
+## Learning Objectives
+
+This project helps beginners understand:
+
+- Dictionaries
+- Lists
+- User input handling
+- Conditional statements (`if-else`)
+- Loops (`for`)
+- String methods (`lower()`)
+
+## Future Improvements
+
+- Add more movie categories.
+- Recommend movies randomly from each genre.
+- Allow users to rate movies.
+- Search movies by actor or language.
+- Store movie data in a database or CSV file.
+- Build a graphical user interface (GUI) using Tkinter.
+- Integrate with a movie API for real-time recommendations.
+
+## License
+
+This project is open source and intended for learning and educational purposes.
+
 
